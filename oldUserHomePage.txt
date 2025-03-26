@@ -1,0 +1,43 @@
+import { useNavigate, useLocation } from "react-router-dom";
+
+function UserHomePage() {
+  const location = useLocation();
+  const user = location.state.user;
+  const navigate = useNavigate();
+
+  const buySubscription = (amount) => {
+     const updatedUser = {
+      ...user,
+      subscription: {
+        amount: amount,
+         },
+    };
+
+   navigate('/SubscriptionPage', { state: { user: updatedUser,subscriptionAmount: amount } } );
+  };
+
+  const goToAfterSubscription = () => {
+    navigate('/AfterSubscription', { state: {user: user } });
+  };
+
+  return (
+    <div id='root'>
+      <h1>hello</h1>
+      <p>SignUpPage</p>
+
+      {user && (
+        <div>
+          <img src={user.picture} alt="User" />
+          <h2>{user.name}</h2>
+        </div>
+      )}
+
+      <button onClick={() => buySubscription(30)}>Buy 30RS subscription</button>
+      <button onClick={() => buySubscription(40)}>Buy 40RS subscription</button>
+      <button onClick={() => buySubscription(50)}>Buy 50RS subscription</button>
+      <button onClick={() => goToAfterSubscription()}>Go To AfterSubscription</button>
+    </div>
+  );
+}
+
+export default UserHomePage;

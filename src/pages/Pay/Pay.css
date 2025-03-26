@@ -1,0 +1,26 @@
+.pay {
+    position: relative;
+    width: 100%;
+    height: 110vh;
+}
+
+.pay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: linear-gradient(to bottom right, #Ffbc00 50%, black 50%);
+}
+.greenButton {
+    background-color: rgb(91, 247, 7);
+    color: rgb(15, 14, 14); /* Text color */
+}
+@media only screen and (min-width: 330px) and (max-width: 575px) {
+    .pay::before{
+        background: linear-gradient(to bottom right, #Ffbc00 50%, black 50%);
+        height: 1200px;
+    }
+}

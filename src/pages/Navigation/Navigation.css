@@ -1,0 +1,24 @@
+.navigation-bar {
+    border-bottom: 1px solid black; /* Set border bottom to 1px solid black */
+    background-color: rgb(17, 13, 13); /* Set background color to black */
+    color: white; /* Set text color to white */
+
+  }
+
+
+@media only screen and (min-width: 330px) and (max-width: 575px) {
+    .navigation-bar{
+  background-color: rgb(17, 12, 12);
+  width: 900px;
+  height: 100px;
+    }
+   
+  }
+  @media only screen and (min-width: 576px) and (max-width: 900px) {
+    .navigation-bar{
+  background-color: rgb(17, 12, 12);
+  width: 1200px;
+  height: 100px;
+    }
+   
+  }

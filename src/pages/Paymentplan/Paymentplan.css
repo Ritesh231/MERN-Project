@@ -1,0 +1,96 @@
+/* Paymentplan.css */
+
+.section3-content {
+  background-color: black;
+  padding: 20px;
+  height: 400px;
+}
+
+/* Paymentplan.css */
+
+.section3-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #000000, #2e2e2e); /* Black gradient background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 20px 50px -10px rgba(157, 150, 150, 0.5); /* Highlighting box shadow */
+  height: 300px;
+  max-width: 80%; /* Adjust the value based on your preference */
+  margin: 0 auto; /* Center the element horizontally */
+
+}
+
+
+.section3-text-container {
+  display: flex;
+  flex-direction: column; /* Display children in a column */
+ 
+ /* Align text content to the left */
+}
+
+.section3-inner h1,
+.section3-inner p {
+  color: #ffffff;
+  margin: 0; /* Remove default margin to ensure proper spacing */
+  margin-right: 200px;
+  font-size: 20px;
+}
+
+.section3-inner p {
+  margin-top: 10px; /* Add margin to create space between h1 and p */
+}
+
+.section3-inner .button-container {
+  margin-top: 20px;
+  margin-left: 50px;
+  
+}
+.section3-text-container h1{
+  font-size: 40px;
+}
+.section3-text-container p{
+  font-size: 18px;
+}
+@media only screen and (min-width: 330px) and (max-width: 800px) {
+  .section3-content{
+background-color: black;
+width: 1140px;
+  }
+  .section3-inner{
+    max-width: 1000px;
+  }
+  .section3-inner .button-container {
+   font-size: 50px;
+   margin-right: 60px;
+  }
+  .section3-text-container h1{
+    font-size: 50px;
+  }
+  .section3-text-container p{
+    font-size: 25px;
+  }
+  
+}  
+@media only screen and (min-width: 801px) and (max-width: 900px) {
+  .section3-content{
+background-color: black;
+width: 800px;
+  }
+  .section3-inner{
+    max-width: 800px;
+  }
+  .section3-inner .button-container {
+   font-size: 40px;
+   margin-right: 40px;
+  }
+  .section3-text-container h1{
+    font-size: 40px;
+    margin-left: 30px;
+  }
+  .section3-text-container p{
+    font-size: 20px;
+    margin-left: 30px;
+  }
+  
+}  

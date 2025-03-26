@@ -1,0 +1,71 @@
+/* SignIn.css */
+
+.sign-in-container {
+    background-image: url('../../assets/Logo.png');
+    background-color: black;
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+  }
+  
+  .login-box {
+    display: flex;
+    flex-Direction: column;
+    align-Items: center;
+    padding: 20px;
+    border-Radius: 30px;
+    padding-top: 50px;
+    border: 20 px solid rgb(227, 5, 131);
+    
+  }
+  
+  .login-avatar {
+ 
+    background-color: 'secondary.main';
+  }
+ .form{
+    width: 300px;
+background-color:  rgba(0, 3, 8, 0.649);
+height: 350px;
+box-shadow: 0 0 20px 5px rgba(0, 255, 255, 0.816);
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .sign-in-container {
+      background-image: url('../../assets/Logo4.png');
+      background-color: black;
+      background-size: contain;
+      background-position: left;
+      background-repeat: no-repeat;
+      height: 100vh;
+    }
+    .login-avatar {
+      background-color: 'secondary.main';
+      margin-top: 250px;
+    }
+    .form{
+      width: 450px;
+  background-color:  rgba(0, 3, 8, 0.649);
+  height: 350px;
+  box-shadow: 0 0 20px 5px rgba(0, 255, 255, 0.816);
+  margin-top:400px;
+    }
+  }
+  @media only screen and (min-width: 330px) and (max-width: 767px) {
+    .sign-in-container {
+      background-image: url('../../assets/Logo4.png');
+      background-color: black;
+      background-size: contain;
+      background-position: left;
+      background-repeat: no-repeat;
+      height: 100vh;
+    }
+    .form{
+      width: 350px;
+  background-color:  rgba(0, 3, 8, 0.649);
+  height: 350px;
+  box-shadow: 0 0 20px 5px rgba(0, 255, 255, 0.816);
+  margin-top: 100px;
+    }
+  }

@@ -1,0 +1,142 @@
+/* YourComponent.css */
+
+.image-text-container {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    align-items: center;
+    padding: 20px; /* Add padding as needed */
+    background-color: black;
+  }
+  
+  .image-container {
+    flex: 1; /* Take up remaining space */
+  }
+  
+  .image {
+    height: 300px;
+    width: 600px; /* Adjust image width as needed */
+    border-radius: 20px;
+  margin-left: 20px;
+  }
+  
+  .text-container {
+    flex: 1; /* Take up remaining space */
+    color: white;
+    margin-left: 30px;
+  }
+  
+  h2, p {
+    margin: 0; /* Remove default margins for h2 and p */
+  }
+  .image-text-container1{
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    align-items: center;
+    padding: 20px; /* Add padding as needed */
+    background-color: rgb(10, 9, 5);
+  }
+  .image-text-container2{
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    align-items: center;
+    padding: 20px; /* Add padding as needed */
+    background-color: rgba(12, 11, 10, 0.461);
+  }
+  .image-text-container3{
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    align-items: center;
+    padding: 40px; /* Add padding as needed */
+    background-color: rgb(7, 4, 3);
+     
+  }
+  .image {
+    height: 300px;
+    width: 600px; /* Adjust image width as needed */
+    border-radius: 20px;
+  margin-left: 30px;
+  }
+  @media only screen and (min-width: 330px) and (max-width: 800px) {
+    .image-text-container1,
+   
+    .image-text-container3 {
+      display: flex; /* Change display to flex */
+      flex-direction: column; /* Change flex-direction to row */
+      justify-content: space-between; /* Optionally adjust spacing between items */
+      background-color: black; /* Apply background color */
+      width: 1140px; /* Adjust width as needed */
+    }
+    .image{
+      height: 400px;
+      width: 1000px;
+    }
+    .text-container{
+      font-size: 25px;
+    }
+    .h2{
+      font-size: 60px;
+    }
+    .image-text-container2 {
+      display: flex;
+      flex-direction: column-reverse; /* Reverse the order of appearance */
+      justify-content: space-between;
+      background-color: grey; /* Set background color to grey */
+      width: 1140px;
+    }
+    
+    .image {
+      height: 400px;
+      width: 1000px;
+    }
+    
+    .text-container {
+      font-size: 25px;
+    }
+    
+    .h2 {
+      font-size: 60px;
+    }
+  
+  }
+  @media only screen and (min-width: 801px) and (max-width: 900px) {
+    .image-text-container1,
+   
+    .image-text-container3 {
+      display: flex; /* Change display to flex */
+      flex-direction: column; /* Change flex-direction to row */
+      justify-content: space-between; /* Optionally adjust spacing between items */
+      background-color: black; /* Apply background color */
+      width: 800px; /* Adjust width as needed */
+    }
+    .image{
+      height: 400px;
+      width: 400px;
+    }
+    .text-container{
+      font-size: 25px;
+    }
+    .h2{
+      font-size: 60px;
+    }
+    .image-text-container2 {
+      display: flex;
+      flex-direction: column-reverse; /* Reverse the order of appearance */
+      justify-content: space-between;
+      background-color: grey; /* Set background color to grey */
+      width: 800px;
+    }
+    
+    .image {
+      height: 400px;
+      width: 700px;
+    }
+    
+    .text-container {
+      font-size: 25px;
+    }
+    
+    .h2 {
+      font-size: 60px;
+    }
+  
+  }

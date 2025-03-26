@@ -1,0 +1,86 @@
+.First-Section{
+  background-color: rgba(0, 0, 0, 0.656);
+  color: white;
+  text-align: center;
+}
+.contact-heading{
+  text-align: center;
+}
+.contact-section {
+  padding: 20px;
+}
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  border: 5px solid black;
+  border-radius: 10px; /* Adjust border radius as needed */
+  padding: 20px;
+}
+
+.form-group input {
+  width: 100%; /* Ensure the input takes up full width */
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.message-container {
+  width: 100%; /* Ensure the message container takes up full width */
+  height: 200px; /* Adjust height as needed */
+}
+.ql-editor{
+  height: 200px;
+  border: 2px solid black;
+}
+.form-group{
+  border: 3px solid black;
+}
+.email{
+  border: 1.4px solid black;
+}
+.Submit1 {
+  background-color: #0b57d0; /* Green background */
+  border: none; /* Remove border */
+  color: rgb(245, 238, 238); /* Text color */
+  font-weight: bold; /* Bold text */
+  font-family: 'Montserrat', sans-serif; 
+  padding: 10px 30px 10px 20px; /* Padding */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove underlining */
+  display: inline-block; /* Make it behave like a block element */
+  font-size: 1rem; /* Font size */
+  cursor: pointer; /* Cursor style */
+  border-radius: 30px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+  box-sizing: border-box;
+  letter-spacing: normal;
+  font-weight: 500;
+}
+
+
+.Submit1:hover {
+  background-color: #0ae516; /* Darker green on hover */
+}
+/* Media query for tablet screens */
+@media screen and (max-width: 768px) {
+  .form-group {
+    padding: 10px;
+  }
+
+  .message-container {
+    height: 150px; /* Adjust height for tablet screens */
+  }
+}
+
+/* Media query for mobile screens */
+@media screen and (max-width: 480px) {
+  .form-group {
+    padding: 5px;
+  }
+
+  .message-container {
+    height: 100px; /* Adjust height for mobile screens */
+  }
+}

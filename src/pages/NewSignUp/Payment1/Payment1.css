@@ -1,0 +1,10 @@
+.container2 {
+    margin-top: 100px;
+    margin-right: 100px;
+}
+@media only screen and (max-width: 900px) {
+    .container2 {
+        margin-top:-70px;
+        margin-left: 50px; /* Remove margin-top for tablet-sized screens */
+    }
+}
